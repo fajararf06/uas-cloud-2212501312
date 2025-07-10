@@ -1,0 +1,8 @@
+CREATE DATABASE IF NOT EXISTS uas_db;
+USE uas_db;
+
+CREATE TABLE IF NOT EXISTS mahasiswa (
+    nim VARCHAR(20) PRIMARY KEY,
+    nama VARCHAR(100),
+    email VARCHAR(100)
+);
